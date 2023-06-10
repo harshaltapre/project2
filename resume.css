@@ -3,7 +3,10 @@
     padding:0.4cm;
     }
 body{
-    background-color:#cac9cc; 
+    background-color:#cac9cc;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px; 
     }
   h1{
     font-size:40pt;
@@ -28,4 +31,8 @@ body{ margin:20px;
     }
  h2 { 
     color:orange;
+    }
+  li{
+      list-style: none;    
+      float:left;
     }
